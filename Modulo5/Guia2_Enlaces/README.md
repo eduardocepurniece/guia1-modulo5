@@ -2,7 +2,7 @@
 Eduardo Ventura Cepurniece
 
 ## Descripción del repositorio
-En este repositorio se desarrollan las actividades correspondientes a la guia 1 del modulo 5.
+En este repositorio se desarrollan las actividades correspondientes a la guia 2 del modulo 5.
 
 ## Estructura de carpetas
 ```text
