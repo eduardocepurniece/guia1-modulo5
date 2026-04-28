@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sacale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <h2>Formulario de Registro</h2>
+
+    <form>
+        <!-- Nombre -->
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required maxlength="30"><br><br>
+
+        <!-- Correo -->
+        <label for="correo">Correo Electrónico:</label><br>
+        <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required><br><br>
+
+        <!-- Contraseña -->
+        <label for="clave">Contraseña:</label><br>
+        <input type="password" id="clave" name="clave" required><br><br>
+
+        <!-- Edad -->
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" min="10" max="100" required><br><br>
+
+        <!-- Fecha -->
+        <label for="fecha">Fecha de nacimiento:</label><br>
+        <input type="date" id="fecha" name="fecha"><br><br>
+
+        <!-- Genero -->
+        <label for="genero">Genero:</label><br>
+        <input type="radio" id="genero" name="genero" value="masculino">Masculino<br>
+        <input type="radio" id="genero" name="genero" value="femenino">Femenino<br><br>
+
+        <!-- Intereses -->
+        <label for="intereses">Intereses:</label><br>
+        <input type="checkbox" id="intereses" name="intereses" value="programacion">Programacion<br>
+        <input type="checkbox" id="intereses" name="intereses" value="diseño">Diseño<br><br>
+
+        <!-- Campo solo lectura -->
+        <label>Pais:</label><br>
+        <input type="text" value="Republica Dominicana" readonly><br><br>
+
+        <!-- Campo deshabilitado -->
+        <label>usuario asignado:</label><br>
+        <input type="text" value="usuario123" disabled><br><br>
+
+        <!-- Boton -->
+        <input type="submit" value="Registrarse"><br><br>
+    </form>
+
+</body>
+</html>

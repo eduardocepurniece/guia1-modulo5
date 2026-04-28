@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sacale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <h2>Formulario de Registro</h2>
+
+    <form>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"><br><br>
+
+        <p>Selecciona tu curso:</p><br>
+        <select name="asignatura" id="asignatura">
+            <option>--Seleccione--</option>
+
+            <optgroup label="Programacion">
+                <option >Programacion Web</option>
+                <option >Programacion en C#</option>
+            </optgroup>
+
+            <optgroup label="Matematicas">
+                <option>Matematica Discreta</option>
+                <option>Algebra</option>
+            </optgroup>   
+        </select>
+
+        <br><br>
+        <h3>Ejemplo con Multiple Size</h3>
+        <label for="lenguajes">Selecciona tus lenguajes favoritos:</label>
+        <select id="lenguajes" name="lenguajes[]" multiple size="4">
+            <option value="python">Python</option>
+            <option value="javascript">Javascript</option>
+            <option value="csharp">C#</option>
+            <option value="java">Java</option>
+        </select> 
+
+        <br><br>
+        <h3>Textos largos con textarea</h3>
+        <label for="comentario">Escribe tus comentarios:</label>
+        <textarea id="comentario" name="comentario" rows="5" cols="40" placeholder="Escribe tu opinion aqui" required>
+        </textarea>
+
+        <br><br>
+        <h3>Agrega un medidor de valor usando la etiqueta meter</h3>
+        <label for="bateria">Nivel de bateria:</label>
+        <meter id="bateria" min="0" max="100" low="20" high="80" optimum="100" value="65">
+            65%
+        </meter>
+
+        <br><br>
+        <h3>Agrega un progresbar para mostrar el avance de una tarea en curso</h3>
+        <label for="progreso">Progreso de la tarea:</label>
+        <progress id="progreso" value="70" max="100">70%</progress>
+
+        <br><br>
+        <h3>Agrega un titulo que puede expandirse con summary</h3>
+        <details>
+            <summary>Que es HTML?</summary>
+            <p>HTML (HyperText Markup Language) es el lenguaje estandar para crear paginas web. <br>Permite estructurar el contenido mediante etiquetas.</p>
+        </details>
+    </form>
+
+</body>
+</html>

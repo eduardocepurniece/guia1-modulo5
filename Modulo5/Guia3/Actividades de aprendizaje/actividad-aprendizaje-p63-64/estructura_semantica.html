@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sacale=1.0">
+    <title>Estructura Semantica de una Pagina Web</title>
+    <style> 
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; } 
+        header, 
+        footer, 
+        nav, 
+        main, 
+        aside, 
+        article, 
+        section { 
+            padding: 15px; } 
+        header { 
+            background-color: #0b1c2d; 
+            color: #f1f5f9;} 
+        nav { 
+            background-color: #e5e5e5; 
+            padding: 10px;} 
+        main { 
+            display: flex; 
+            margin: 10px;} 
+        article { 
+            flex: 3; 
+            background-color: #f9f9f9; 
+            padding: 15px; 
+            margin-right: 10px; } 
+        aside { 
+            flex: 1; 
+            background-color: #f1f1f1; 
+            padding: 15px; } 
+        footer { 
+            background-color: #081522; 
+            color: #e5e7eb; 
+            text-align: center; 
+            padding: 10px; } 
+        mark { 
+            background-color: f5c542; } 
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }        
+    </style> 
+</head>
+<body>
+    <header>
+        <h1>Teamfight Tactics</h1>
+        <p>Guía introductoria al auto battler estratégico de Riot Games</p>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Guías TFT</a>
+        <a href="#">Composiciones</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <main>
+        <article>
+            <header>
+                <h2>¿Qué es Teamfight Tactics (TFT)</h2>
+                <p>Publicado el <time datetime="2026-04-28"> 28 de abril del 2026</time></p>
+            </header>
+            <section>
+                <p>
+                    <mark>Teamfight Tactics (TFT)</mark> es un juego de estrategia por turnos desarrollado por Riot Games.
+                    Los jugadores compiten contra otros siete oponentes formando equipos de campeones del universo
+                    de League of Legends.
+                </p>
+                <p>
+                    En cada partida, debes administrar oro, experiencia y sinergias para crear la mejor composición posible.
+                    Cada campeón pertenece a diferentes <mark>clases y orígenes</mark>, los cuales otorgan bonificaciones
+                    especiales al combinarse correctamente.
+                    
+                </p>
+                
+                <p>
+                    El objetivo principal es sobrevivir hasta el final eliminando a los demás jugadores mediante
+                combates automáticos, donde la estrategia y la toma de decisiones son más importantes que la rapidez.
+                </p>
+    
+                
+            </section>
+
+            <details>
+                <summary>Leer más...</summary>
+                <p>
+                    TFT se actualiza constantemente mediante nuevos conjuntos (sets), agregando campeones,
+                    mecánicas y estilos de juego distintos. Esto mantiene el juego fresco y desafiante,
+                    tanto para jugadores casuales como competitivos.
+                </p>
+            </details>
+            
+            <details>
+                <summary>Consejos básicos para principiantes</summary>
+                <p>
+                Para mejorar en <mark>TFT</mark> es importante aprender a manejar la economía,
+                no gastar todo el oro en los primeros niveles y adaptarse a las unidades que
+                aparecen en la tienda según la partida.
+                </p>
+            </details>
+        </article>
+
+        <article>
+            <header>
+                <h2>Composiciones Básicas en Teamfight Tactics</h2>
+            </header>
+
+            <section>
+                <p>
+                En <mark>Teamfight Tactics</mark>, las composiciones son combinaciones de campeones
+                que comparten sinergias de clase y origen. Aprender a construir una buena composición
+                es clave para aumentar tus probabilidades de victoria.
+                </p>
+            </section>
+        </article>
+
+        <aside>
+            <h3>Datos Clave de TFT</h3>
+            <p>
+                🎯 Género: Auto Battler<br>
+                🎮 Plataforma: PC y Móvil<br>
+                🏢 Desarrollador: Riot Games<br>
+                🧠 Enfoque: Estrategia y planificación
+            </p>
+        </aside>
+        
+        <aside>
+            <h3>Consejos Rápidos de TFT</h3>
+            <p>
+            En Teamfight Tactics la clave del éxito está en la gestión del oro,
+            la elección correcta de campeones y el aprovechamiento de las sinergias.
+            Observar a otros jugadores y adaptarte a cada partida es fundamental.
+            </p>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Introduccion a Teamfight Tactics</p>
+        <p>Autod: [Ing. Eduardo Ventura Cepurniece]</p>
+    </footer>
+
+</body>
+</html>

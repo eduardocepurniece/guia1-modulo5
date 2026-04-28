@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sacale=1.0">
+    <title>Formulario de inscripción</title>
+</head>
+<body>
+    <h1>Formulario de inscripción</h1>
+    <form action="inscripcion" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" placeholder="Ingrese su nombre" id="nombre" name="nombre">
+        <br>
+        <label for="email">Correo Electrónico</label><br>
+        <input type="email" placeholder="Ingrese su nombre"id="email" name="email">
+        <br>
+        <p>Asignatura a inscribir:</p><br>
+        <select name="asignatura" id="asignatura">
+            <option value="algoritmos">Algoritmos</option>
+            <option value="programacion_basica">Programacion Básica</option>
+            <option value="bases_de_datos">Base de Datos</option>
+            <option value="matematica">Matematica Discreta</option>
+        </select>
+        <br>
+        <p>Comentario:</p><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="30"></textarea>
+        <br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
